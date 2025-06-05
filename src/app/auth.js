@@ -1,6 +1,5 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials"
-import { redirect } from "next/navigation";
 import { connectDb } from "../../utils/Database/connectDb";
 import { userModel } from "../../utils/Models/userModel";
 import bcrypt from 'bcryptjs'
